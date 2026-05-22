@@ -8,14 +8,18 @@ designed for zero-hallucination AI-driven development and seamless migration to 
 Unlike traditional dotfile repositories that rely on raw text or ad-hoc prompting, this framework treats configuration specifications as an intelligent, semantic data layer, designed to function as a **Deterministic RAG** (Retrieval-Augmented Generation) infrastructure.
 
 - **Separation of Data and Logic**: Configuration specifications are modeled in semantic HTML (Data Layer), allowing LLMs to parse exact API boundaries and structural constraints without interference from runtime deployment scripts (Logic Layer).
-    
+
 - **Self-Documenting Topology**: Utilizes JSON-LD (`ItemList`) and structured metadata to inject an absolute frame of reference directly into the AI's inference context, effectively mapping the entire configuration landscape.
-    
+
 - **Cognitive Load Reduction**: Eliminates AI hallucination by establishing physical network entry points (`root-skill.html`), forcing the LLM to rely on provided structural data rather than its own unstable internal knowledge base.
-    
+
 - **Deterministic RAG Paradigm**: By treating the LLM as a strictly bounded compiler rather than a conversational assistant, this framework ensures that structural inputs yield predictable, error-free outputs, enabling flawless 1-shot refactoring and migration.
-    
+
 - **Infrastructure-as-Context**: Rather than refining prompts, this system optimizes the data infrastructure itself. It provides a stable, machine-readable topology that allows the AI to operate with 100% precision, transforming configuration management from a probabilistic task into a deterministic execution.
+
+## Installation
+
+Clone this repo into your RAG specs directory.
 
 ## 🚀 Usage Workflow
 
@@ -53,8 +57,6 @@ The repository is structured as a generic framework with strict separation of co
 └── root-skill.html             # Physical network entry point (Index)
 
 ```
-
-
 
 🛠️ Extensibility Notice (Bring Your Own Data)
 
